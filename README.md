@@ -11,6 +11,8 @@ This repo contains the PyTorch implementation of "[Learning Visibility for Robus
 
 ## Example Results
 
+We show some qualitative comparisons against prior arts which can handle occlusions: [PARE](https://openaccess.thecvf.com/content/ICCV2021/papers/Kocabas_PARE_Part_Attention_Regressor_for_3D_Human_Body_Estimation_ICCV_2021_paper.pdf) and [METRO](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_End-to-End_Human_Pose_and_Mesh_Reconstruction_with_Transformers_CVPR_2021_paper.pdf). We observe that PARE and METRO are robust to occlusions in general but VisDB aligns with the images better thanks to the accurate dense heatmap and visibility estimations. 
+
 <p align="center">  
 <img src="assets/pare.png">  
 </p> 
