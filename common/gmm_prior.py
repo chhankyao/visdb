@@ -77,9 +77,9 @@ class MaxMixturePrior(nn.Module):
 
     def forward(self, pose):
         if self.use_merged:
-            return self.merged_log_likelihood(pose[:, 3:])
+            return self.merged_log_likelihood(pose[:,3:])
         else:
-            return self.log_likelihood(pose[:, 3:])
+            return self.log_likelihood(pose[:,3:])
         
         
 gmm = MaxMixturePrior(cfg.gmm_path)

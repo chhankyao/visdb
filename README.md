@@ -1,7 +1,7 @@
 # VisDB: Visibility-aware Dense Body
 
 <p align="center">  
-<img src="assets/framework.pdf">  
+<img src="assets/framework.png">  
 </p> 
 
 ## Introduction
@@ -12,10 +12,10 @@ This repo contains the PyTorch implementation of "[Learning Visibility for Robus
 ## Example Results
 
 <p align="center">  
-<img src="assets/pare.pdf">  
+<img src="assets/pare.png">  
 </p> 
 <p align="center">  
-<img src="assets/metro.pdf">  
+<img src="assets/metro.png">  
 </p> 
 
 
