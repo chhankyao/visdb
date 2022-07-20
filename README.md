@@ -67,7 +67,7 @@ python train.py --gpu 0-3 --stage param --continue
 ```  
 to train the `param` model on GPUs 0-3.
 
-### Testinng
+### Testing
 Place trained model at the `output/model_dump/`.  Choose the stage you want to test among (`lixel` or `param`).
   
 In the `main/` folder, run  
@@ -76,9 +76,9 @@ python test.py --gpu 0-3 --stage $STAGE --test_epoch 8
 ```
 
 
-## Contacts
+## Contact
 
-Chun-Han Yao: <cyao6@ucmerced.edu>
+[Chun-Han Yao](https://www.chhankyao.com/): <cyao6@ucmerced.edu>
 
 
 
