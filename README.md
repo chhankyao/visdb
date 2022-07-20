@@ -1,10 +1,22 @@
 # VisDB: Visibility-aware Dense Body
 
-
+<p align="center">  
+<img src="assets/framework.pdf">  
+</p> 
 
 ## Introduction
 
 This repo contains the PyTorch implementation of "[Learning Visibility for Robust Dense Human Body Estimation]()" (ECCV'2022). Extended from a heatmap-based representation in [I2L-MeshNet](https://github.com/mks0601/I2L-MeshNet_RELEASE), we explicitly model the dense visibility of human joints and vertices to improve the robustness on partial-body images. 
+
+
+## Example Results
+
+<p align="center">  
+<img src="assets/pare.pdf">  
+</p> 
+<p align="center">  
+<img src="assets/metro.pdf">  
+</p> 
 
 
 ## Setup
