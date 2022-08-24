@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This repo contains the PyTorch implementation of "[Learning Visibility for Robust Dense Human Body Estimation](https://github.com/chhankyao/papers/blob/main/2568.pdf)" (ECCV'2022). Extended from a heatmap-based representation in [I2L-MeshNet](https://github.com/mks0601/I2L-MeshNet_RELEASE), we explicitly model the dense visibility of human joints and vertices to improve the robustness on partial-body images. 
+This repo contains the PyTorch implementation of "[Learning Visibility for Robust Dense Human Body Estimation](https://arxiv.org/pdf/2208.10652.pdf)" (ECCV'2022). Extended from a heatmap-based representation in [I2L-MeshNet](https://github.com/mks0601/I2L-MeshNet_RELEASE), we explicitly model the dense visibility of human joints and vertices to improve the robustness on partial-body images. 
 
 
 ## Example Results
