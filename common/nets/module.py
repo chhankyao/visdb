@@ -67,7 +67,7 @@ class Pose2Feat(nn.Module):
 
     def forward(self, img_feat, joint_heatmap, joint_vis=None):
         joint_heatmap = joint_heatmap.view(-1,self.joint_num*cfg.output_hm_shape[0],cfg.output_hm_shape[1],cfg.output_hm_shape[2])
-        feat = torch.cat((img_feat, joint_heatmap_3d),1)
+        feat = torch.cat((img_feat, joint_heatmap),1)
         feat = self.conv(feat)
         if cfg.predict_vis:
             feat_vis = self.fc_vis(joint_vis.view(-1, self.joint_num*3))[:,:,None,None]
